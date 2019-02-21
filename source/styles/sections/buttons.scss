@@ -1,0 +1,66 @@
+.buttons {
+    padding: 20px 0;
+    text-align: center;
+
+    &__title {
+        font-size: 35px;
+        color: $colorBlue;
+    }
+
+    &__content {
+        font-size: 0;
+    }
+
+    &__content-title {
+        font-size: 30px;
+        color: darken($colorBlue, 20%);
+    }
+
+    &__content-item {
+        display: inline-block;
+        vertical-align: top;
+        width: 25%;
+        padding: 5px 20px;
+        font-size: 20px;
+
+        @media (max-width: 1439px) {
+            width: 50%;
+        }
+
+        @media (max-width: 767px) {
+            width: 100%;
+        }
+    }
+    
+    &__content-name {
+        font-size: 24px;
+        font-weight: 600;
+        color: $colorBlue;
+        margin: 0 0 30px;
+    }
+
+    &__content-btn {
+        margin: 0 0 20px;
+    }
+
+    &__content-code {
+        font-size: 16px;
+        margin: 0 0 30px;
+
+        b {
+            color: $colorRed
+        }
+    }
+
+    &__content-btn {
+
+    }
+
+    &__content-code {
+
+    }
+
+    @media (max-width: 960px) {
+        padding: 40px 0 20px 0;
+    }
+}
