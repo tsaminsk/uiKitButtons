@@ -48,19 +48,7 @@
         margin: 0 0 30px;
 
         b {
-            color: $colorRed
+            color: $colorRed;
         }
-    }
-
-    &__content-btn {
-
-    }
-
-    &__content-code {
-
-    }
-
-    @media (max-width: 960px) {
-        padding: 40px 0 20px 0;
     }
 }
